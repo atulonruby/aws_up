@@ -1,7 +1,14 @@
 require "aws_up/version"
 
 module AwsUp
- def hello
-   'hello from aws_up'
+ class Uploader
+   attr_accessor :hello
+   
+  def initialize
+    @hello = "hello form aws"
+  end
+  
+  
+  
  end
 end
